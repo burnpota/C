@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main(void){
+<<<<<<< HEAD
 	int i,j,k,l,m;
 	char ch;
 	printf("대문자 알파벳을 입력하시오 : ");
@@ -15,5 +16,21 @@ int main(void){
 		}
 		printf("\n");
 	}
+=======
+	int i,j;
+	char ch;
+
+	printf("대문자 알파벳 하나를 입력하시오 :");
+	scanf("%c", &ch);
+	for(i='A';i<=ch;i++){
+		for(j=0;j<ch-i;j++){
+			printf(" ");
+		}
+		for(;j=ch-i;j++){
+			printf("%c",i
+		}
+	}
+
+>>>>>>> 9c56b2f3d95581dcc27cf6b83b7cccf71b1cae30
 	return 0;
 }
